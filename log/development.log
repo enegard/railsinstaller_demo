@@ -1,0 +1,56 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-12-07 03:43:22 +0100
+Served asset /rails.png - 200 OK (44ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2012-12-07 03:52:34 +0100
+Processing by Rails::InfoController#properties as */*
+  Rendered inline template (39.0ms)
+Completed 200 OK in 114ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-12-07 03:55:22 +0100
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2012-12-07 16:20:11 +0100
+Processing by Rails::InfoController#properties as */*
+  Rendered inline template (23.0ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-07 16:39:44 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Compiled welcome.css  (21ms)  (pid 7888)
+Compiled application.css  (35ms)  (pid 7888)
+Compiled jquery.js  (3ms)  (pid 7888)
+Compiled jquery_ujs.js  (0ms)  (pid 7888)
+Compiled welcome.js  (972ms)  (pid 7888)
+Compiled application.js  (1085ms)  (pid 7888)
+Completed 200 OK in 1180ms (Views: 1180.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-07 16:39:46 +0100
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2012-12-07 16:39:46 +0100
+Served asset /welcome.css - 200 OK (28ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-07 16:39:46 +0100
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2012-12-07 16:39:47 +0100
+Served asset /welcome.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-07 16:39:47 +0100
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-07 16:39:47 +0100
+Served asset /application.js - 200 OK (5ms)
